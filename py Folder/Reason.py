@@ -824,3 +824,5 @@ result = pd.concat([result,y_res_logn],axis=1)
 result = pd.concat([result,y_res_logw],axis=1)
 result
 
+print ("RMSE : %.2f" %RSME_line) 
+
